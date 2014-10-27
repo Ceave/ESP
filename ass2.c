@@ -6,7 +6,7 @@ int count=2;
 int backCount=2;
 
 //Execute
-main()
+int main()
 {
   while(count<=9)
   {
@@ -17,7 +17,7 @@ main()
     } 
     else 
     {
-      printf("An overflow has occurred!");
+      printf("An overflow has occurred!\n");
       return(0);
     }
     count++;
